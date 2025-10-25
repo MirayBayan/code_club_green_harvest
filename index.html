@@ -399,7 +399,9 @@
         <h3>
           Ordering <span class="chiantiword">from us</span> is quick and easy!
           Fill out
-          <span class="greenword">the form</span>
+          <span class="greenword"
+            >the <span class="form-word"><br /></span>form</span
+          >
           below and we will contact you !
         </h3>
         <form class="form" name="order" autocomplete="off">
@@ -418,6 +420,7 @@
               type="email"
               name="email"
               placeholder="Email"
+              required
             />
           </label>
 
@@ -434,6 +437,47 @@
       </div>
 
       <!--Sosyal medya hesapları bu yorumun altına eklenebilir-->
+      <div class="modal-overlay" id="modal">
+        <div class="modal-content">
+          <div class="your-order-img"></div>
+          <!-- <img
+            class="modal-img"
+            src="./images/sportswoman.jpg"
+            srcset="./images/sportswoman@2x.jpg"
+            alt="sports-woman"
+          /> -->
+          <div class="modal-body">
+            <p class="modal-text">Follow us on our social networks:</p>
+            <div class="modal-textarea">
+              <ul>
+                <li>
+                  <a
+                    href="https://www.instagram.com/goit.turkiye/"
+                    target="_blank"
+                    >instagram</a
+                  >
+                </li>
+                <li>/</li>
+                <li>
+                  <a
+                    href="https://www.facebook.com/people/GOIT-T%C3%BCrkiye/61558036560161/"
+                    target="_blank"
+                    >facebook</a
+                  >
+                </li>
+                <li>/</li>
+                <li>
+                  <a
+                    href="https://www.youtube.com/@GoITTurkey?app=desktop"
+                    target="_blank"
+                    >youtube</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </section>
